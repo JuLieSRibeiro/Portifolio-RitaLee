@@ -1,4 +1,4 @@
-/* Define color variables */
+
 :root {
     --color-light-background: #f9faff;
     --color-light-gray: #ccc;
@@ -99,7 +99,6 @@
     color: #333;
   }
   
-  /* Style do about section */
   .about {
     padding: 54px 120px 42px;
     max-width: 486px;
@@ -145,7 +144,6 @@
     cursor: pointer;
   }
   
-  /* 1. Rotação Leve */
   .about .buttons .primary:hover {
     color: #ccc;
     transform: rotate(10deg); 
