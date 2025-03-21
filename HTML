@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rita Lee</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <h1>Rita Lee</h1>
+      </div>
+      <nav class="header-right">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <figure>
+        <img
+          src="image.png"
+          alt="Imagem da cantora Rita Lee"/>
+      </figure>
+
+      <section class="about">
+        <h2>Hey, meu nome é Rita Lee</h2>
+        <p>
+          Soa Rita Lee Jones de Carvalho, cantora, compositora, multi-instrumentista,
+          escritora e ativista. Participei dos grupos Os Mutantes (1966 a 1972) e Tutti Frutti, 
+          antes de seguir minha carreira solo. Fui reconhecida como a “rainha
+          do rock brasileiro”, uma das primeiras mulheres a tocar guitarra em um palco. Ao longo 
+          da minha trajetória,  lançei 40 álbuns, sendo 34 em carreira solo e 6 junto com Os Mutantes.
+        </p>
+        <div class="buttons">
+          <button class="primary">Projetos</button>
+          <button class="secondary">LinkedIn</button>
+        </div>
+      </section>
+
+      <section class="projects">
+        <h2>Projetos Musicais</h2>
+
+        <!-- Card 1 -->
+        <div class="card">
+          <div class="card-left">
+            <h3>Álbuns Icônicos</h3>
+            <p>
+              Ao longo de sua carreira, Rita lançou diversos álbuns que se tornaram extremamente  
+              marcantes, hits internacionais e marcando o rock brasileiro.
+              Como os albuns: Fruto Proibido (1975) que trouxe o hit "Agora Só Falta Você";
+              Rita Lee (1979) que inclui "Mania de Você", "Chega Mais" e "Doce Vampiro";
+              Lança Perfume (1980); Balacobaco (2003) com "Amor e Sexo".
+            </p>
+            <button class="secondary">Ver Projeto</button>
+          </div>
+
+          <div class="card-right">
+            <img
+              src="rita22.png"
+              alt="Capa de CD da cantora Rita Lee"/>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card card-reverse" style="flex-direction: row-reverse;">
+          <div class="card-left">
+            <h3>Conquistas e Legado</h3>
+            <p>
+              Em 2001, a cantora lançou o álbum 3001, com as clássicas Erva Venenosa e Amor 
+              Em Pedaços, sendo considerado o melhor disco de rock no Grammy Latino de 2001. 
+              Daí pra frente, a maioria dos álbuns lançados por ela foram super premiados, 
+              como Balacobaco (2003) e seu Acústico MTV Ao Vivo (2004), ambos Disco de Ouro 
+              em menos de um mês.
+            </p>
+            <button class="secondary">Ver Projeto</button>
+          </div>
+
+          <div class="card-right">
+            <img
+              src="rita4.png"
+              alt="Imagem do album 3001 de Rita Lee"
+            />
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <div class="card-left">
+            <h3>Rita Lee</h3>
+            <p>
+              Foi muito mais do que uma cantora, ela representa uma força transformadora na cultura brasileira. 
+              Com sua autenticidade, irreverência e talento inquestionável, ela abriu caminhos para diversas gerações de artistas. 
+              Seu legado permanece vivo, influenciando novas vozes e encantando fãs de todas as idades.
+            </p>
+            <button class="secondary">Ver Projeto</button>
+          </div>
+
+          <div class="card-right">
+            <img
+              src="rita3.png"
+              alt="Imagem da cantora Rita Lee"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <h2>Contato</h2>
+
+        <form action="/pagina-processa-dados-do-form" method="post">
+          <div class="form-container">
+            <div> 
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="usuario_nome" />
+          </div>
+          <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="usuario_email" />
+          </div>
+          <div>
+            <label for="msg">Mensagem:</label>
+              <textarea type="mensagem"id="msg" name="usuario_msg"></textarea>  
+          </div>
+        </div>
+          <div class="button">
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+        
+        <img src="icons.png" alt="Icons de redes sociais" class="icons"
+          />
+            <div class="card-center">
+              <p>
+                Rita Lee 2025
+              </p>
+      </section>
+                
+      <footer>
+        <img src="Vector1.png"  class="onda">
+    </footer>
+                
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
