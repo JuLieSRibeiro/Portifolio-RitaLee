@@ -332,8 +332,9 @@ button:hover {
 }
 
 .icons {
-  margin: 20px; 
-  height: auto;
+  display: block; 
+  margin: 20px auto; 
+  height: auto; 
 }
 
 .card-center {
@@ -341,4 +342,5 @@ button:hover {
   color: #828282;
   margin-bottom: 24px;
   margin-top: 0;
+  text-align: center;
 }
